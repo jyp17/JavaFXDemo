@@ -13,7 +13,7 @@
         <items>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
                <children>
-                  <Button fx:id="myButton" layoutX="52.0" layoutY="34.0" mnemonicParsing="false" text="Button" />
+                  <Button fx:id="myButton" layoutX="52.0" layoutY="34.0" mnemonicParsing="false" text="Button" onAction="#incrementCountButtonAction" />
                </children>
             </AnchorPane>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
